@@ -6,7 +6,7 @@
 </head>
 <body>
 <h1>
-	3rd  release version !!!
+	Latest  release version !!!
 </h1>
 
 <P>  The server is [${hostName}] : ${ipAddress} !! </P>
