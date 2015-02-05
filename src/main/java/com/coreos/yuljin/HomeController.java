@@ -25,7 +25,7 @@ public class HomeController {
 	 */
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String home(Locale locale, Model model) throws UnknownHostException {
-		logger.info("Welcome home aaaa!! The client locale is {}.", locale);
+		logger.info("Welcome home !! The client locale is {}.", locale);
 		
 		InetAddress inetAddress = InetAddress.getLocalHost();
 		String hostName = inetAddress.getHostName();
